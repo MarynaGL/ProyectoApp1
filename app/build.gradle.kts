@@ -42,10 +42,20 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.play.services.analytics.impl)
+
+    androidTestImplementation(libs.androidx.junit)
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation ("androidx.test:runner:1.6.2")
+    androidTestImplementation ("androidx.test:rules:1.6.1")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:3.0.0")
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+    testImplementation("org.robolectric:robolectric:4.15.1")
+
+
+
+
 
 }
