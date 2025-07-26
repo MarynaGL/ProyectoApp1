@@ -81,9 +81,6 @@ fun obtenerListadoProductos (productos: List<Products>): String {
     }
 }
 
-//fun setProductService(productService: ProductService){
-    //this.productService=productService
-//}
 }
 
 
